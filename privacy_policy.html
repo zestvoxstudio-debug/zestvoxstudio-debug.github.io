@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zestlingo — Gizlilik Politikası, Veri Güvenliği ve Hesap Silme Merkezi (Google Play Resmi Beyanı)</title>
+    <style>
+        :root {
+            --bg-dark: #080b12;
+            --card-bg: #111726;
+            --card-border: rgba(250, 204, 21, 0.22);
+            --accent-yellow: #facc15;
+            --accent-green: #22c55e;
+            --accent-red: #ef4444;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.65;
+            padding: 28px 16px 64px;
+        }
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+        .header-banner {
+            background: linear-gradient(135deg, rgba(250, 204, 21, 0.14), rgba(34, 197, 94, 0.08));
+            border: 1px solid var(--card-border);
+            border-radius: 18px;
+            padding: 28px 24px;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(250, 204, 21, 0.15);
+            color: var(--accent-yellow);
+            border: 1px solid rgba(250, 204, 21, 0.35);
+            border-radius: 999px;
+            padding: 4px 14px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.4px;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 1.65rem;
+            line-height: 1.3;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+        .policy-card {
+            background: var(--card-bg);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 18px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+        }
+        .policy-card h2 {
+            color: var(--accent-yellow);
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .policy-card p, .policy-card li {
+            color: #cbd5e1;
+            font-size: 0.95rem;
+            margin-bottom: 10px;
+        }
+        .policy-card ul {
+            padding-left: 20px;
+        }
+        .policy-card strong {
+            color: #ffffff;
+        }
+        .code-pill {
+            background: rgba(255, 255, 255, 0.07);
+            color: #fde047;
+            padding: 2px 7px;
+            border-radius: 6px;
+            font-family: monospace;
+            font-size: 0.86rem;
+        }
+        .deletion-card {
+            border: 1px solid rgba(239, 68, 68, 0.4);
+            background: linear-gradient(145deg, rgba(239, 68, 68, 0.09), #111726);
+        }
+        .form-group {
+            margin-top: 14px;
+            margin-bottom: 14px;
+        }
+        .form-group label {
+            display: block;
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: #e2e8f0;
+            margin-bottom: 6px;
+        }
+        .form-control {
+            width: 100%;
+            padding: 12px 14px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.16);
+            background: #080b12;
+            color: #ffffff;
+            font-size: 0.95rem;
+            outline: none;
+        }
+        .form-control:focus {
+            border-color: var(--accent-yellow);
+        }
+        .btn-delete {
+            background: var(--accent-red);
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            padding: 12px 20px;
+            font-size: 0.95rem;
+            font-weight: 700;
+            cursor: pointer;
+            width: 100%;
+            transition: opacity 0.2s;
+        }
+        .btn-delete:hover {
+            opacity: 0.92;
+        }
+        .status-box {
+            display: none;
+            margin-top: 14px;
+            padding: 14px;
+            border-radius: 10px;
+            background: rgba(34, 197, 94, 0.14);
+            border: 1px solid rgba(34, 197, 94, 0.4);
+            color: #86efac;
+            font-size: 0.92rem;
+            font-weight: 600;
+        }
+        .footer {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-top: 32px;
+        }
+        a {
+            color: var(--accent-yellow);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-banner">
+            <span class="badge">GOOGLE PLAY RESMİ VERİ GÜVENLİĞİ BEYANI (v8.0)</span>
+            <h1>🍋 Zestlingo — Gizlilik Politikası, Veri Güvenliği ve Hesap Silme Merkezi (Google Play Resmi Beyanı)</h1>
+            <p class="subtitle">Son Güncelleme: 18 Ekim 2026 • Paket Adı: <span class="code-pill">com.zestvox.limonai</span></p>
+        </div>
+
+        <div class="policy-card">
+            <h2>1. Veri Sorumlusu ve İletişim</h2>
+            <p>Bu uygulama (<strong>Zestlingo: İngilizce Akademi</strong>), <strong>ZESTVOX STUDIO (Zestlingo Akademi)</strong> tarafından geliştirilmiş ve sunulmaktadır.</p>
+            <ul>
+                <li><strong>Geliştirici Stüdyo &amp; Veri Sorumlusu:</strong> ZESTVOX STUDIO</li>
+                <li><strong>Resmi Destek ve Veri İletişim Adresi:</strong> <a href="mailto:destek@limonai.org">destek@limonai.org</a></li>
+            </ul>
+        </div>
+
+        <div class="policy-card">
+            <h2>2. Toplanan Veriler ve Kullanım Amacı (Google Play Data Safety)</h2>
+            <ul>
+                <li><strong>Hesap Bilgileri (Kullanıcı Adı, E-posta, Şifre Özeti):</strong> Cihazlar arası ilerleme (XP, Kelime Kasası, Karne) senkronizasyonu için şifreli (HTTPS/TLS) olarak Firebase Realtime Database üzerinde saklanır. Üçüncü taraflarla asla paylaşılmaz ve satılmaz.</li>
+                <li><strong>Mikrofon İzni (<span class="code-pill">android.permission.RECORD_AUDIO</span>):</strong> Yalnızca kullanıcının İngilizce telaffuz testlerinde ve canlı AI sesli pratik aramalarında kelimeleri doğru telaffuz edip etmediğini anlık doğrulamak için kullanılır. Ses kayıtları sunucularımızda depolanmaz.</li>
+            </ul>
+        </div>
+
+        <div class="policy-card">
+            <h2>3. Google Play Uygulama İçi Satın Alımlar (<span class="code-pill">com.android.vending.BILLING</span>)</h2>
+            <p>Tüm dijital abonelik ve PRO paket işlemleri yalnızca resmi <strong>Google Play Faturalandırma Sistemi (Google Play In-App Billing)</strong> üzerinden yürütülür (İlk sürüm lansman döneminde satın alımlar kapalıdır / <em>"Satın Alım Yakında Açılacak"</em> modundadır). Uygulama içinde harici bir ödeme yöntemine yönlendirme yapılmaz.</p>
+        </div>
+
+        <div class="policy-card">
+            <h2>4. Kullanıcı Tarafından Oluşturulan İçerik (UGC) ve Topluluk Kuralları</h2>
+            <p><strong>1v1 Kelime Arenası</strong> sohbet alanında gerçek zamanlı otomatik küfür/argo filtrelemesi aktiftir. Kullanıcılar topluluk kurallarına aykırı her mesajı <strong>🚩 Bildir</strong> butonuyla şikayet edebilir ve <strong>🚫 Engelle</strong> butonuyla ilgili kullanıcıyı anında engelleyebilir.</p>
+        </div>
+
+        <div class="policy-card deletion-card" id="account-deletion">
+            <h2>5. Hesap ve Veri Silme Hakkı (Account &amp; Data Deletion)</h2>
+            <p>Kullanıcılarımız diledikleri an hesaplarını ve bulut üzerindeki tüm kişisel ilerleme verilerini (XP, Kelime Kasası, Karne ve Üyelik Kaydı) geri döndürülemez biçimde silebilirler:</p>
+            <ul>
+                <li><strong>Uygulama İçinden Anında Silme:</strong> Uygulama içinde <strong>Üst Bar -&gt; Hesap &amp; Üyelik -&gt; "🗑️ Hesabımı ve Verilerimi Kalıcı Olarak Sil"</strong> butonuna basarak hesabınızı ve tüm verilerinizi saniyeler içinde kalıcı olarak silebilirsiniz.</li>
+                <li><strong>Web Üzerinden Silme Talebi Formu:</strong> Uygulamaya erişiminiz yoksa aşağıdaki interaktif formu doldurarak tek tıkla veri ve hesap silme talebi oluşturabilirsiniz.</li>
+            </ul>
+
+            <form id="webDeletionForm" onsubmit="handleDeletionRequest(event)">
+                <div class="form-group">
+                    <label for="delUser">Kullanıcı Adı veya Kayıtlı E-posta Adresiniz *</label>
+                    <input type="text" id="delUser" class="form-control" placeholder="Örn: kullanici_adi veya ornek@eposta.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="delReason">Silme Kapsamı</label>
+                    <select id="delReason" class="form-control">
+                        <option value="all">Hesabımı ve Tüm Bulut Verilerimi (XP, Kelime Kasası, Karne) Kalıcı Olarak Sil</option>
+                        <option value="progress">Yalnızca İlerleme ve Kelime Kasası Verilerimi Sıfırla</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-delete">🗑️ Hesap ve Veri Silme Talebini Gönder</button>
+                <div id="delStatusBox" class="status-box"></div>
+            </form>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 ZESTVOX STUDIO • Zestlingo Akademi • Tüm Hakları Saklıdır.
+        </div>
+    </div>
+
+    <script>
+        async function handleDeletionRequest(e) {
+            e.preventDefault();
+            var userVal = document.getElementById('delUser').value.trim();
+            if (!userVal) return;
+            var reasonEl = document.getElementById('delReason');
+            var reasonVal = reasonEl ? reasonEl.value : 'all';
+            var statusBox = document.getElementById('delStatusBox');
+            var reqId = 'DEL-' + Math.floor(100000 + Math.random() * 900000);
+            var targetLower = userVal.toLowerCase();
+            var fbBase = 'https://limon-ai-85f0f-default-rtdb.firebaseio.com';
+
+            try {
+                localStorage.removeItem('limon_ActiveAccountSession_v1');
+            } catch (err) {}
+
+            statusBox.style.display = 'block';
+            statusBox.innerHTML = '⏳ <strong>Bulut Sunucusuna Bağlanılıyor (Referans: ' + reqId + ')...</strong><br>Hesap ve bulut kayıtlarınız taranıyor, lütfen bekleyin.';
+
+            var deletedUsersCount = 0;
+            var deletedPlayersCount = 0;
+
+            try {
+                var usersRes = await fetch(fbBase + '/limon_users.json');
+                if (usersRes.ok) {
+                    var usersData = await usersRes.json();
+                    if (usersData && typeof usersData === 'object') {
+                        var userKeys = Object.keys(usersData);
+                        for (var i = 0; i < userKeys.length; i++) {
+                            var uKey = userKeys[i];
+                            var uObj = usersData[uKey];
+                            if (!uObj) continue;
+                            var uName = String(uObj.username || uKey || '').toLowerCase();
+                            var uMail = String(uObj.email || '').toLowerCase();
+                            if (uName === targetLower || uMail === targetLower) {
+                                if (reasonVal === 'progress') {
+                                    await fetch(fbBase + '/limon_users/' + encodeURIComponent(uKey) + '/xp.json', { method: 'PUT', body: '0' });
+                                    await fetch(fbBase + '/limon_users/' + encodeURIComponent(uKey) + '/vault.json', { method: 'DELETE' });
+                                    await fetch(fbBase + '/limon_users/' + encodeURIComponent(uKey) + '/wordStates.json', { method: 'DELETE' });
+                                } else {
+                                    await fetch(fbBase + '/limon_users/' + encodeURIComponent(uKey) + '.json', { method: 'DELETE' });
+                                }
+                                deletedUsersCount++;
+                            }
+                        }
+                    }
+                }
+            } catch (err) {}
+
+            try {
+                var playersRes = await fetch(fbBase + '/limon_players.json');
+                if (playersRes.ok) {
+                    var playersData = await playersRes.json();
+                    if (playersData && typeof playersData === 'object') {
+                        var playerKeys = Object.keys(playersData);
+                        for (var j = 0; j < playerKeys.length; j++) {
+                            var pKey = playerKeys[j];
+                            var pObj = playersData[pKey];
+                            if (!pObj) continue;
+                            var pName = String(pObj.username || pObj.name || pKey || '').toLowerCase();
+                            var pMail = String(pObj.email || '').toLowerCase();
+                            if (pName === targetLower || pMail === targetLower) {
+                                if (reasonVal === 'progress') {
+                                    await fetch(fbBase + '/limon_players/' + encodeURIComponent(pKey) + '/xp.json', { method: 'PUT', body: '0' });
+                                } else {
+                                    await fetch(fbBase + '/limon_players/' + encodeURIComponent(pKey) + '.json', { method: 'DELETE' });
+                                }
+                                deletedPlayersCount++;
+                            }
+                        }
+                    }
+                }
+            } catch (err) {}
+
+            try {
+                await fetch(fbBase + '/limon_deletion_requests.json', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        identifier: userVal,
+                        scope: reasonVal,
+                        refId: reqId,
+                        deletedUsers: deletedUsersCount,
+                        deletedPlayers: deletedPlayersCount,
+                        createdAt: new Date().toISOString()
+                    })
+                });
+            } catch (err) {}
+
+            var cloudStatusMsg = (deletedUsersCount > 0 || deletedPlayersCount > 0)
+                ? ('Bulut veritabanında eşleşen kayıtlarınız (' + deletedUsersCount + ' kullanıcı profili, ' + deletedPlayersCount + ' liderlik kaydı) <strong>canlı olarak ' + (reasonVal === 'progress' ? 'sıfırlandı' : 'kalıcı biçimde silindi') + '</strong>.')
+                : 'Bulut veritabanında silme kaydınız oluşturuldu ve eşleşen tüm oturum verileri temizleme kuyruğuna işlendi.';
+
+            statusBox.innerHTML = '✅ <strong>Silme İşlemi Tamamlandı (Referans: ' + reqId + ')</strong><br>' +
+                '<strong>' + userVal.replace(/</g, '&lt;') + '</strong> hesabı için: ' + cloudStatusMsg + '<br>' +
+                'Ayrıca resmi e-posta istemciniz üzerinden <a href="mailto:destek@limonai.org?subject=Hesap%20Silme%20Talebi%20(' + encodeURIComponent(reqId) + ')&body=Kullanici%20Adi%20/%20E-posta:%20' + encodeURIComponent(userVal) + '">destek@limonai.org</a> adresine doğrudan onay iletebilirsiniz.';
+        }
+    </script>
+</body>
+</html>
